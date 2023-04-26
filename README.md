@@ -8,11 +8,9 @@ Proyecto basado en un [video](https://www.youtube.com/watch?v=c_-b_isI4vg&list=W
 
 Se trata de una copia de Airbnb con backend en MongoDB y Prisma, con función de Login. 
 
-
-
 [Sitio web]() - 🚧 En construcción 🚧
 
-[Repositorio](https://github.com/FedericoLuna01/AllNighterMovies)
+[Repositorio](https://github.com/FedericoLuna01/Airbnb-copy)
 
 ## Vista previa
 
@@ -25,6 +23,10 @@ Se trata de una copia de Airbnb con backend en MongoDB y Prisma, con función de
 ### Tecnologias usadas
 - zustand
 - react hook form
+- react hot toast
+- prisma
+- next auth
+- bcrypt
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -44,7 +46,7 @@ Instalar la ultima versión de NodeJS.
 
 1. Clonar el repositorio.
    ```sh
-   git clone https://github.com/FedericoLuna01/AllNighterMovies.git
+   git clone https://github.com/FedericoLuna01/Airbnb-copy.git
    ```
 2. Instalar los paquetes de NPM.
    ```sh
@@ -77,5 +79,5 @@ Federico Luna - [LinkdedIn](https://www.linkedin.com/in/federico-luna-dev/) - [S
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 
-# ???
+# Posibles mejoras
 - ClientOnly tal vez se pueda eliminar 
