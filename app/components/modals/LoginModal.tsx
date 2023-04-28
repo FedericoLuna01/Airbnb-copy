@@ -21,8 +21,10 @@ import { useRouter } from 'next/navigation'
 
 const LoginModal = () => {
   const router = useRouter()
+
   const registerModal = useRegisterModal()
   const loginModal = useLoginModal()
+
   const [isLoading, setIsLoading] = useState(false)
 
   const {
@@ -57,6 +59,11 @@ const LoginModal = () => {
       }
     })
   }
+
+  const toggle = useCallback(() => {
+    loginModal.onClose()
+    registerModal.onOpen()
+  }, [loginModal, registerModal])
 
   const bodyContent = (
     <div
@@ -95,13 +102,13 @@ const LoginModal = () => {
         outline
         label='Continuar con Google'
         icon={FcGoogle}
-        onClick={() => {}}
+        onClick={() => signIn('google')}
       />
       <Button 
         outline
         label='Continuar con Github'
         icon={AiFillGithub}
-        onClick={() => {}}
+        onClick={() => signIn('github')}
       />
       <div
         className='text-neutral-500 text-center mt-4 font-light'
@@ -110,13 +117,13 @@ const LoginModal = () => {
           className='justify-center flex flex-row items-center gap-2'
         >
           <div>
-            ¿Ya tienes una cuenta?
+            ¿No tienes una cuenta?
           </div>
           <div
-            onClick={loginModal.onClose}
+            onClick={toggle}
             className='text-neutral-800 cursor-pointer hover:underline'
           >
-            Ingresar
+            Registrate
           </div>
         </div>
       </div>
