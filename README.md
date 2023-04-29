@@ -19,8 +19,10 @@ Se trata de una copia de Airbnb con backend en MongoDB y Prisma, con función de
 ### Construida con
 
 - [![React][React.js]][React-url]
+- [![Typescript][Typescript]][Typescript-url]
+- [![Tailwind][Tailwind]][Tailwind-url]
 
-### Tecnologias usadas
+### Tecnologias y paquetes utilizados
 
 - zustand
 - react hook form
@@ -29,6 +31,10 @@ Se trata de una copia de Airbnb con backend en MongoDB y Prisma, con función de
 - next auth
 - bcrypt
 - query string
+- world countries
+- react select
+- leaflet
+- cloudinary
 
 ## Getting Started
 
@@ -53,6 +59,26 @@ Instalar la ultima versión de NodeJS.
    ```sh
    npm install
    ```
+3. Crear carpeta .env
+   ```js
+     DATABASE_URL=
+     NEXTAUTH_SECRET=
+     GITHUB_ID=
+     GITHUB_SECRET=
+     GOOGLE_CLIENT_ID=
+     GOOGLE_CLIENT_SECRET=
+     NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+   ```
+4. Iniciar prisma
+   ```sh
+   npx prisma db push
+   ```
+
+### Iniciar aplicación
+
+```sh
+npm run dev
+```
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
@@ -60,10 +86,10 @@ Instalar la ultima versión de NodeJS.
 
 ## Roadmap
 
-- [x] Agregar Navbar
-- [x] Agregar UI Auth
-  - [x] Agregar funcionalidad al Auth
-- [ ] Agregar categorías
+- [x] ~~Agregar Navbar~~
+- [x] ~~Agregar UI Auth~~
+  - [x] ~~Agregar funcionalidad al Auth~~
+- [x] ~~Agregar categorías~~
 - [ ] Agregar listado
 - [ ] Funcionalidad de favoritos
 - [ ] Funcionalidad de reservaciones
@@ -84,7 +110,7 @@ Federico Luna - [LinkdedIn](https://www.linkedin.com/in/federico-luna-dev/) - [S
 [logo]: '/public/images/logo.png'
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-
-# Posibles mejoras
-
-- ClientOnly tal vez se pueda eliminar
+[Typescript]: https://img.shields.io/badge/typescript-20232A?style=for-the-badge&logo=typescript&logoColor=61DAFB
+[Typescript-url]: https://www.typescriptlang.org/
+[Tailwind]: https://img.shields.io/badge/tailwindcss-20232A?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB
+[Tailwind-url]: https://tailwindcss.com/

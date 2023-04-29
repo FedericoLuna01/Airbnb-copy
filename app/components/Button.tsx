@@ -1,5 +1,7 @@
 'use client'
 
+import { IconType } from "react-icons/lib";
+
 interface ButtonProps {
   label: string;
   onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
@@ -24,7 +26,7 @@ const Button: React.FC<ButtonProps> = ({
       className={`
         relative 
         disabled
-        opacity-70
+        opacity-90
         disabled:cursor-not-allowed
         rounded-lg
         hover:opacity-80
