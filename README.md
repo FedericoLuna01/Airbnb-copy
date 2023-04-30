@@ -35,6 +35,7 @@ Se trata de una copia de Airbnb con backend en MongoDB y Prisma, con función de
 - react select
 - leaflet
 - cloudinary
+- date fns
 
 ## Getting Started
 

@@ -28,64 +28,64 @@ export const categories = [
     description: 'Esta propiedad es moderna'
   },
   {
-    label: 'Countryside',
+    label: 'Campo',
     icon: TbMountain,
-    description: 'This property is in the countryside!'
+    description: 'Esta propiedad esta en el campo!'
   },
   {
-    label: 'Pools',
+    label: 'Piletas',
     icon: TbPool,
-    description: 'This is property has a beautiful pool!'
+    description: 'Esta propiedad tiene una hermosa pileta!'
   },
   {
-    label: 'Islands',
+    label: 'Islas',
     icon: GiIsland,
-    description: 'This property is on an island!'
+    description: 'Esta propiedad está en una isla!'
   },
   {
-    label: 'Lake',
+    label: 'Lago',
     icon: GiBoatFishing,
-    description: 'This property is near a lake!'
+    description: 'Esta propiedad esta cerca de un lago!'
   },
   {
     label: 'Skiing',
     icon: FaSkiing,
-    description: 'This property has skiing activies!'
+    description: 'Esta propiedad tiene skiing cerca!'
   },
   {
-    label: 'Castles',
+    label: 'Castillos',
     icon: GiCastle,
-    description: 'This property is an ancient castle!'
+    description: 'Esta propiedad es un castillo antiguo!'
   },
   {
-    label: 'Caves',
+    label: 'Cuevas',
     icon: GiCaveEntrance,
-    description: 'This property is in a spooky cave!'
+    description: 'Esta propiedad está en una tenebrosa cueva!'
   },
   {
     label: 'Camping',
     icon: GiForestCamp,
-    description: 'This property offers camping activities!'
+    description: 'Esta propiedad ofrece actividades de camping!'
   },
   {
-    label: 'Arctic',
+    label: 'Artico',
     icon: BsSnow,
-    description: 'This property is in arctic environment!'
+    description: 'Esta propiedad tiene un clima artico!'
   },
   {
-    label: 'Desert',
+    label: 'Desierto',
     icon: GiCactus,
-    description: 'This property is in the desert!'
+    description: 'Esta propiedad está en un desierto!'
   },
   {
-    label: 'Barns',
+    label: 'Graneros',
     icon: GiBarn,
-    description: 'This property is in a barn!'
+    description: 'Esta propiedad tiene un granero!'
   },
   {
-    label: 'Lux',
+    label: 'Lujo',
     icon: IoDiamond,
-    description: 'This property is brand new and luxurious!'
+    description: 'Esta propiedad es nueva y lujosa!'
   }
 ] 
 
