@@ -37,6 +37,7 @@ Se trata de una copia de Airbnb con backend en MongoDB y Prisma, con función de
 - cloudinary
 - date fns
 - react date range
+- react spinners
 
 ## Getting Started
 
@@ -92,10 +93,10 @@ npm run dev
 - [x] ~~Agregar UI Auth~~
   - [x] ~~Agregar funcionalidad al Auth~~
 - [x] ~~Agregar categorías~~
-- [ ] Agregar listado
-- [ ] Funcionalidad de favoritos
-- [ ] Funcionalidad de reservaciones
-- [ ] Funcionalidad de filtros
+- [x] Agregar listado
+- [x] Funcionalidad de favoritos
+- [x] Funcionalidad de reservaciones
+- [x] Funcionalidad de filtros
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
