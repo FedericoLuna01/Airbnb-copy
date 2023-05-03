@@ -1,9 +1,8 @@
 
 import EmptyState from "../components/EmptyState";
 import getCurrentUser from "../actions/getCurrentUser";
-import getReservations from "../actions/getReservations";
-import TripsClient from "./TripsClient";
-import getFavorites from "../actions/getFavorites";
+import PropertiesClient from "./PropertiesClient";
+import getListings from "../actions/getListings";
 
 const PropertiesPage = async () => {
   const currentUser = await getCurrentUser();
@@ -12,26 +11,26 @@ const PropertiesPage = async () => {
     return (
       <EmptyState
         title='No estás conectado.'
-        subtitle='Por favor inicia sesión para ver tus viajes.'
+        subtitle='Por favor inicia sesión para ver tus propiedades.'
       />
     )
   }
 
-  const listings = await getFavorites({ userId: currentUser.id })
+  const listings = await getListings({ userId: currentUser.id })
 
-  if (!reservations.length) {
+  if (!listings.length) {
     return (
       <EmptyState
-        title='No tienes viajes.'
-        subtitle='Puedes reservar un viaje en la página de inicio.'
+        title='No tienes propiedades.'
+        subtitle='Parece que todavia no tienes ninguna propiedad.'
       />
     )
   }
 
   return ( 
     <div>
-      <TripsClient 
-        reservations={reservations}
+      <PropertiesClient 
+        listings={listings}
         currentUser={currentUser}
       />
     </div>
