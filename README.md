@@ -6,21 +6,28 @@
 
 Proyecto basado en un [video](https://www.youtube.com/watch?v=c_-b_isI4vg&list=WL&index=37&ab_channel=CodeWithAntonio) de YouTube.
 
-Se trata de una copia de Airbnb con backend en MongoDB y Prisma, con función de Login.
+Se trata de una copia de Airbnb con backend en MongoDB y Prisma, tiene la función de Login con Google y Github, rutas protegidas, filtros para buscar una casa determinada, favoritos, reservas.
 
-[Sitio web]() - 🚧 En construcción 🚧
+[Sitio web](https://proyecto-clon-viajes.vercel.app/)
 
 [Repositorio](https://github.com/FedericoLuna01/Airbnb-copy)
 
 ## Vista previa
 
-🚧 En construcción 🚧
+<img src='./public/airbnb-clon-1.jpeg' width='700' />
+
+<img src='./public/airbnb-clon-2.jpeg' width='700' />
+
+<img src='./public/airbnb-clon-3.jpeg' width='700' />
 
 ### Construida con
 
 - [![React][React.js]][React-url]
 - [![Typescript][Typescript]][Typescript-url]
 - [![Tailwind][Tailwind]][Tailwind-url]
+- [![Next][Next]][Next-url]
+- [![Prisma][Prisma]][Prisma-url]
+- [![MongoDB][MongoDB]][MongoDB-url]
 
 ### Tecnologias y paquetes utilizados
 
@@ -93,10 +100,10 @@ npm run dev
 - [x] ~~Agregar UI Auth~~
   - [x] ~~Agregar funcionalidad al Auth~~
 - [x] ~~Agregar categorías~~
-- [x] Agregar listado
-- [x] Funcionalidad de favoritos
-- [x] Funcionalidad de reservaciones
-- [x] Funcionalidad de filtros
+- [x] ~~Agregar listado~~
+- [x] ~~Funcionalidad de favoritos~~
+- [x] ~~Funcionalidad de reservaciones~~
+- [x] ~~Funcionalidad de filtros~~
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
@@ -117,3 +124,9 @@ Federico Luna - [LinkdedIn](https://www.linkedin.com/in/federico-luna-dev/) - [S
 [Typescript-url]: https://www.typescriptlang.org/
 [Tailwind]: https://img.shields.io/badge/tailwindcss-20232A?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB
 [Tailwind-url]: https://tailwindcss.com/
+[Next]: https://img.shields.io/badge/next-20232A?style=for-the-badge&logo=nextdotjs&logoColor=000000
+[Next-url]: https://nextjs.org/
+[Prisma]: https://img.shields.io/badge/prisma-20232A?style=for-the-badge&logo=prisma&logoColor=2D3748
+[Prisma-url]: https://nextjs.org/
+[MongoDB]: https://img.shields.io/badge/MongoDB-20232A?style=for-the-badge&logo=mongodb&logoColor=47A248
+[MongoDB-url]: https://www.mongodb.com/
